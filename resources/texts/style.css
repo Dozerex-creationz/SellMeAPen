@@ -1,0 +1,139 @@
+*
+{
+margin:0px;
+padding:0px;
+}
+
+
+header
+{
+top:0px;
+width: 100%;
+height: 80px;
+display: flex;
+justify-content: flex-start;
+place-items:center;
+position:fixed;
+}
+
+.trans
+{
+background: transparent;
+}
+
+.yes
+{
+animation: tik 0.5s linear both;
+}
+
+nav ul
+{
+width:100%;
+display:flex;
+list-style-type: none;
+justify-content: center;
+place-items:flex-start;
+}
+
+nav ul li
+{
+font-size:163%;
+padding: 0px 50px 0px 50px;
+margin: 10px;
+}
+
+a
+{
+text-decoration:none;
+color:white;
+}
+
+
+img.post
+{
+width:100%;
+height:100vh;
+}
+
+.rcont,.lcont
+{
+display: flex;
+justify-content: center;
+place-items:space-around;
+font-size:140%;
+line-spacing:10px;
+width:100vw-60px;
+height:500px;
+margin:30px;
+padding:50px;
+box-shadow:4px 4px 30px black;
+}
+
+.rcont img , .lcont img
+{
+width: 400px;
+height: 400px;
+margin:auto;
+}
+
+.rcont img
+{
+float:right;
+}
+.lcont img
+{
+float:left;
+}
+
+div ul
+{
+display:flex;
+flex-flow:nowrap column;
+justify-content: center;
+place-items:center;
+}
+
+div li
+{
+font-size:133%;
+margin:50px;
+}
+
+
+
+footer ul
+{
+width:100%-60px;
+display:flex;
+list-style-type: none;
+justify-content: space-around;
+place-items:center;
+margin:30px;
+}
+
+footer li
+{
+width:50px;
+height:50px;
+border-radius:50%;
+background:white;
+box-shadow: 3px 3px 40px grey;
+overflow:hidden;
+}
+
+
+@keyframes tik
+{
+0%{
+background: transparent;
+}
+
+100%
+{
+background: black;
+color:white;
+
+
+}
+
+}
